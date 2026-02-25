@@ -298,7 +298,7 @@ const StudentMode = ({ soundEnabled }) => {
       {/* Confirmation Modal */}
       {showResetConfirm && (
         <div className="absolute inset-0 z-[60] flex items-center justify-center bg-black/40 backdrop-blur-sm p-4">
-          <div className="bg-white rounded-2xl shadow-2xl w-full max-w-sm overflow-hidden animate-scale-in">
+          <div className="bg-white rounded-2xl shadow-2xl w-full max-sm overflow-hidden animate-scale-in">
             <div className="p-6">
               <div className="flex items-center gap-3 mb-4 text-red-600">
                 <AlertCircle className="w-6 h-6" />
@@ -649,7 +649,7 @@ const DealerMode = ({ soundEnabled }) => {
       {/* Confirmation Modal */}
       {showResetConfirm && (
         <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm p-4">
-          <div className="bg-white rounded-2xl shadow-2xl w-full max-w-sm overflow-hidden animate-scale-in">
+          <div className="bg-white rounded-2xl shadow-2xl w-full max-sm overflow-hidden animate-scale-in">
             <div className="p-6">
               <div className="flex items-center gap-3 mb-4 text-red-600">
                 <AlertCircle className="w-6 h-6" />
